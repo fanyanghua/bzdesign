@@ -43,7 +43,7 @@ public class ProcessTraceController extends AbstractFrameController {
             registerButtonAction(btnTraceProcess, e -> {
                 onTraceProcess();
             });
-            btnTraceProcess.setListening(true);
+            btnTraceProcess.setListening(true);/*test*/
         }
 
         JCustButton btnSaveChart = processTraceViewPanel.getBtnSaveChart();
